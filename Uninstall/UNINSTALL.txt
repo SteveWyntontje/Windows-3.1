@@ -1,0 +1,5 @@
+How to uninstall Windows 3.1 and/or VirtualBox?
+
+1. Run uninstall.bat. 
+   - Follow the instructions. 
+   - It will delete the VM and/or VirtualBox. 

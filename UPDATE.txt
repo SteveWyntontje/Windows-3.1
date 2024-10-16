@@ -1,0 +1,7 @@
+The Update.bat file will install the update for Windows 3.1. 
+
+This means:
+- a shortcut to run the VM;
+- the Uninstaller;
+- a shortcut to the uninstaller. 
+
