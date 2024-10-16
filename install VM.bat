@@ -1,6 +1,6 @@
 @echo off
 echo Copying files... Please wait...
-xcopy "%CD%\Windows 3.1\" "%USERPROFILE%\Virtualbox VMs\Windows 3.1\" /E /H /I /Q /Y
+xcopy "%CD%\Windows 3.1 Files\" "%USERPROFILE%\Virtualbox VMs\Windows 3.1\" /E /H /I /Q /Y
 xcopy "%CD%\Uninstall\" "%USERPROFILE%\Uninstall Windows 3.1\" /E /H /I /Q /Y
 xcopy "%CD%\Windows 3.1 SC\" "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows 3.1\" /E /H /I /Q /Y
 echo Finished with copying files. Now installing the VM. 
