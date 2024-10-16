@@ -10,14 +10,14 @@ timeout /t 3 /nobreak >nul
 echo Finished installing the VM.
 :Update
 set /p Update=Do you want to install the update? (y/n)
-IF %Update% == "y"(
-"%CD%\update.bat"
+IF %Update% == "y" (
+"%CD%\Update.bat"
 )
-IF %Update% == "n"(
+IF %Update% == "n" (
 timeout /t 1 /nobreak >nul
 )
-IF %Update% == ""(
-echo Please give a input. 
+IF %Update% == "" (
+echo Please give an input. 
 goto Update
 )
 echo Finished. Now exiting this program.
